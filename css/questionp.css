@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500&family=Source+Serif+Pro:ital@1&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+input {
+    margin: .6rem;
+}
+
+.main {
+    min-height: 300vh;
+    width: 100%;
+    background-color: rgb(249, 222, 86);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.main form {
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#quiz {
+    -ms-transform: translate(2%, 20%);
+    transform: translate(2%, 20%);
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 15px 34px;
+    font-size: 15px;
+    font-family: 'Exo 2', sans-serif;
+    background: #4BB9B7;
+    position: relative;
+    cursor: pointer;
+    border-radius: 16px;
+    -ms-transform: translate(+400%, 100%);
+    transform: translate(+400%, 100%);
+    vertical-align: middle;
+    height: 12px;
+    line-height: 18px;
+    text-align: center;
+    text-size-adjust: true;
+}
+
+.hero-btn:hover {
+    border: 1px solid black;
+    background: transparent;
+    transition: 1s;
+}
